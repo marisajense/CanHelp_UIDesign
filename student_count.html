@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/appstyles.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <div class="dashboard">
+        <a class="back-dash" href="index.html"><p class="card-link back-link">Back to Dashbaord</p></a>
+        <div class="top-logo">
+          <h3>Student Count</h3>
+        </div>
+        <div class="container">
+          <div class="row form-dash">
+            <form class="col s12 form-page">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="subdomain" type="text" class="validate">
+                  <label for="subdomain">Subdomain</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="account_id" type="text" class="validate">
+                  <label for="account_id">Account ID</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="student_role_id" type="text" class="validate">
+                  <label for="student_role_id">Student Role ID</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light orange accent-2" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="js/materialize.min.js"></script>
+    </body>
+    </html>
