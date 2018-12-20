@@ -47,6 +47,10 @@ position: relative;
   color: #ed8707;
 }
 
+.bridge-back-dash {
+  color: #008BE1;
+}
+
 .canvas {
   padding-left:15px;
 }
